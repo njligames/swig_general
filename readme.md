@@ -1,4 +1,4 @@
-# evr-internals-api
+# swig_general
 
 ## Where to put the files for wrapping and testing.
 * source/
