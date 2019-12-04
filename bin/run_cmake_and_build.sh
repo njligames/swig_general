@@ -48,6 +48,7 @@ then
 
 elif [ "${PLATFORM}" == "macOS" ]
 then
+    export OPENSSL_ROOT_DIR="/usr/local/opt/openssl@1.1/"
 
   cmake .. \
     -DCMAKE_INSTALL_PREFIX=${INSTALL_PREFIX} \
